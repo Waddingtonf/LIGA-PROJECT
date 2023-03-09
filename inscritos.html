@@ -15,12 +15,15 @@
     <link rel="icon" href='img/marca-ensino-pesquisa-e-inovacao-horizontal.png'>
 
     <!-- Scripts -->
-    <script href='js/inscritos-js/script.js'> </script>
+
+    <script defer href='js/inscritos-js/script.js'> </script>
+
 </head>
 
 <body>
     <!-- Apresentação Logo LIGA HOME_PAGE -->
-    <div class="header"> 
+
+    <header class="header"> 
         <img class="head" src="img/inscritos/Top-Filter.svg">
         <img class="head2" src="img/inscritos/Top.svg">
         <a href="#"><img class="logo" src="img/inscritos/marca ensino, pesquisa e inovação horizontal branca.png"></a>
@@ -37,16 +40,56 @@
             <p> @CONGRESSISTA </p>
             <a ><img onclick=changeImage() class="eye" id="eye" src="img/inscritos/OlhosNotSelected.svg"></a>
         </div>
-
-    <!-- Container  BG -->
-    
+    </header>
+    <!-- Div Hero -->
+    <div class="hero">
         <ul class="hero-board flex">
-            <li><a href="#" class="courses">Meus Cursos</a></li>
-            <li><a href="#" class="information">Informações</a></li>
-            <li><a href="#" class="cronogram">Cronograma </a></li>
+            <li ><a class="courses" >Meus Cursos</a></li>
+            <li><a class="information"  >Informações</a></li>
+            <li><a class="cronogram" >Cronograma</a></li>
         </ul>
+        <p class="waiting1">(Em breve!)</p>
+        <p class="waiting2">(Em breve!)</p>
+    </div>
 
+    <!-- Container -->
+    <div class="container">
+        <section id="courses">
+            <div id="enfermagem">
+                <span class="logo-curso"><img src="img/inscritos/medkit.svg"></span>
+                <span class="text-curso">FARMÁCIA E ENFERMAGEM</span>
+                <span class="notverified"><img src="img/inscritos/close.svg"></span>
+            </div>
+            <div id="experiencia">
+                <span class="logo-curso"><img src="img/inscritos/user.svg"></span>
+                <span class="text-curso">EXPERIÊNCIA DO PACIENTE</span>
+                <span class="notverified"><img src="img/inscritos/close.svg"></span>
+            </div>
+            <div id="fisioterapia">
+                <span class="logo-curso"><img src="img/inscritos/ambulance.svg"></span>
+                <span class="text-curso">FISIOTERAPIA</span>
+                <span class="notverified"><img src="img/inscritos/close.svg"></span>
+            </div>
+            <div id="congresso">
+                <span class="logo-curso"><img src="img/marca-ensino-pesquisa-e-inovacao-horizontal.png"></span>
+                <span class="text-curso">EVENTO ESPECIAL - CONGRESSO DA LIGA</span>
+                <span class="notverified"><img src="img/inscritos/close.svg"></span>
+            </div>
+        </section>
+        <section id="informations">
+            <span class="text-informations"></span>
+        </section>
+        <section id="cronograms">
+            <span class="text-cronogram"></span>
+        </section>
+    </div>
 
+    <footer class="footer">
+        <div class="circle2">         </div>
+        <span class="rounded"></span>
+        <span class="rounded"></span>
+        <span class="rounded"></span>
+        <div class="square">        </div>
+    </footer>
 </body>
-
 </html>

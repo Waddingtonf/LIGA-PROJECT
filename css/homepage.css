@@ -87,3 +87,15 @@ html{
     margin-top: 40vh;
     margin-left: 7vw;
 }
+
+/* @media desktop and (min-width: 700px) and (orientation: landscape) {
+    .container{
+        height: 1980px;
+    }
+
+    .logo-congresso{
+        width: 10vw;
+        height: 5vh;
+        margin-top: 5vh;
+    }
+} */

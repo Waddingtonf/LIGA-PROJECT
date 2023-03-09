@@ -25,11 +25,15 @@ html{
 .head{
     position: absolute;
     width: 100vw;
+    display: flex;
+    flex-direction: column; 
 }
 
 .head2{
     position: absolute;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .circle{
@@ -123,75 +127,289 @@ html{
     align-self: center;
     margin-top: 16.5vh;
     flex-direction: row;
-    margin-left: 8vw;
+    margin-left: 7vw;
 
 }
 
 .hero-board.flex{
     display: flex;
-    position: relative;
-    margin-top: 30vh;
-    gap: 10px;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 4vw;
+    gap: 12px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: rgb(59, 59, 59);
+    color: #949494;
     list-style: none;
     list-style-type: none;
     text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 35px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+    cursor: pointer;
 }
-
 
 .courses:link{
     display: flex;
     flex-direction: row;
-    color: rgb(59, 59, 59);
+    color: #BA1065;
     list-style: none;
     text-decoration: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 35px;
-    font-family: 'Inter';
-    width: 28vw;
-    font-style: normal;
+}
+
+.courses {
+    color: #BA1065;
 }
 
 .information:link{
     display: flex;
     flex-direction: row;
-    color: rgb(59, 59, 59);
+    color: #949494;
     list-style: none;
     text-decoration: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 35px;
-    font-family: 'Inter';
-    font-style: normal;
-
 }
 
 .cronogram:link{
     display: flex;
     flex-direction: row;
-    color: rgb(59, 59, 59);
+    color: #949494;
     list-style: none;
     text-decoration: none;
+}
+
+.courses:active {
+    display: flex;
+    flex-direction: row;
+    color: #BA1065;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.courses:hover{
+    display: flex;
+    flex-direction: row;
+    color: #BA1065;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.information:active{
+    display: flex;
+    flex-direction: row;
+    color: #BA1065;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.information:hover{
+    display: flex;
+    flex-direction: row;
+    color: #BA1065;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cronogram:active{
+    display: flex;
+    flex-direction: row;
+    color: #BA1065;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#courses{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#information{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cronogram{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.waiting1{
+    font-size: 11px;
+    margin-top: 12vh;
+    justify-content: left;
+    align-items: center;
+    margin-left: 38vw;
+    color: #BA1065;
+    display: flex;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 35px;
+    font-weight: 400;
+    line-height: 12px;
+    position: absolute;
+}
+
+.waiting2{
+    font-size: 11px;
+    margin-top: 12vh;
+    justify-content: left;
+    align-items: center;
+    margin-left: 65vw;
+    color: #BA1065;
+    display: flex;
     font-family: 'Inter';
     font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    position: absolute;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 18vh;
+}
+
+.logo-curso img{
+    width: 30px;
+    display: flex;
+
+}
+
+#enfermagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    gap: 10px;    
+}
+
+#fisioterapia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    padding-top: 10px;    
+    color: #BA1065;
+    gap: 10px;    
+}
+
+#experiencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 10px;    
+    line-height: 12px;
+    color: #BA1065;
+    gap: 10px;    
+
+}
+
+#congresso{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+
+}
+
+.notverified{
+    width: 15px;
+    height: 15px;
+}
+
+.footer{
+    width: 100vw;
+    height: 100px;
+    margin-top: 70vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.square{
+    width: 100vw;
+    height: 100px;
+    background:black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.circle2{
+    background: #5F3E85;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.rounded{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    background: white;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 10px
 }

@@ -13,3 +13,27 @@ function changeImage(){
     }
 
 }
+
+const courses = document.getElementsByClassName('courses')
+const information = document.getElementsByClassName('information')
+const cronogram = document.getElementsByClassName('cronogram')
+
+var section1 = document.getElementById('courses')
+var section2 = document.getElementById('informations')
+var section3 = document.getElementById('cronograms')
+
+  // Loop through the buttons and add the active class to the current/clicked button
+
+for(let item of document.querySelectorAll('li')) {
+    item.addEventListener('click', event => {
+      // Remove active class from all li
+      for(let i of document.querySelectorAll('li')) {
+        i.classList.remove('active')
+      }
+      item.classList.add('active')
+    })
+  }
+
+curso = document.getElementsByClassName('information').disabled = true;
+curso = document.getElementsByClassName('cronogram').disabled = true;
+
