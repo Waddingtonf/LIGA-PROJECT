@@ -365,12 +365,142 @@ html{
 
 }
 
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+#pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    fill:#BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+#radiologia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+#nutrição{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;
+}
+
+#dor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+#fonoaudiologia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+#odontologia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+
+#psicologia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+
+#simposio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BA1065;
+    padding-top: 10px;    
+    gap: 10px;    
+}
+
+
 .notverified{
     width: 15px;
     height: 15px;
 }
 
-.footer{
+/* .footer{
     width: 100vw;
     height: 100px;
     margin-top: 70vh;
@@ -412,4 +542,5 @@ html{
     justify-content: space-between;
     align-items: space-between;
     gap: 10px
-}
+} */
+
