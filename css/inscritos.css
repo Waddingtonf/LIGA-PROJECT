@@ -230,7 +230,6 @@ html{
     display: flex;
     width: 100vw;
     flex-direction: column;
-    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -239,8 +238,9 @@ html{
     display: flex;
     width: 100vw;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
 }
 
 #information{
@@ -303,9 +303,8 @@ html{
 }
 
 .logo-curso img{
-    width: 30px;
+    width: 34px;
     display: flex;
-
 }
 
 #enfermagem{
